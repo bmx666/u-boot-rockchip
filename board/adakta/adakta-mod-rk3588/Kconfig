@@ -1,0 +1,12 @@
+if TARGET_ADAKTA_MOD_RK3588
+
+config SYS_BOARD
+	default "adakta-mod-rk3588"
+
+config SYS_VENDOR
+	default "adakta"
+
+config SYS_CONFIG_NAME
+	default "adakta-mod-rk3588"
+
+endif
