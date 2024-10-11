@@ -480,7 +480,7 @@ __weak int misc_init_r(void)
 __weak int board_rng_seed(struct abuf *buf)
 {
 	struct udevice *dev;
-	size_t len = 0x8;
+	size_t len = 32;
 	u64 *data;
 
 	data = malloc(len);
