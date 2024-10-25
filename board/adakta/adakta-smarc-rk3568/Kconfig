@@ -1,0 +1,12 @@
+if TARGET_ADAKTA_SMARC_RK3568
+
+config SYS_BOARD
+	default "adakta-smarc-rk3568"
+
+config SYS_VENDOR
+	default "adakta"
+
+config SYS_CONFIG_NAME
+	default "adakta-smarc-rk3568"
+
+endif
