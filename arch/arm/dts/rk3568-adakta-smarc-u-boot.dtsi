@@ -10,3 +10,9 @@
 	mmc-hs400-1_8v;
 	mmc-hs400-enhanced-strobe;
 };
+
+&vdd_npu {
+	regulator-always-on;
+	regulator-boot-on;
+	regulator-init-microvolt = <900000>;
+};
