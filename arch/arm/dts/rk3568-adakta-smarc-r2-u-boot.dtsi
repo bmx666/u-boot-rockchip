@@ -1,0 +1,18 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
+/*
+ * Copyright (c) 2024 Adakta Ltd.
+ *
+ */
+
+#include "rk356x-u-boot.dtsi"
+
+&sdhci {
+	mmc-hs400-1_8v;
+	mmc-hs400-enhanced-strobe;
+};
+
+&vdd_npu {
+	regulator-always-on;
+	regulator-boot-on;
+	regulator-init-microvolt = <900000>;
+};
